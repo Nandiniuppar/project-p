@@ -1,14 +1,14 @@
 .App-header {
-       background: rgb(203, 176, 228);
-       position: fixed;
-       top: 0;
-       left: 0;
-       width: 100%;
-       padding: 20px 10%;
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       z-index: 100;
+      background: rgb(203, 176, 228);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
 }
 a {
   text-decoration: none;
