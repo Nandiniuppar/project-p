@@ -2,7 +2,7 @@
       background: rgb(203, 176, 228);
       position: fixed;
       top: 0;
-      left: 0;
+      left: -30px;
       width: 100%;
       padding: 20px 10%;
       display: flex;
@@ -17,6 +17,7 @@ a {
   font-size: 30px;
   color: #4f0792;
   font-weight: 700;
+  left: -20px;
 }
 .right-nav a {
    position: relative;
@@ -24,7 +25,7 @@ a {
    margin-left: 40px;
    color: #4f0792;
    justify-content: space-between;
-   font-weight: 400;
+   font-weight: 500;
    right: 55px;
 }
 .right-nav a::before {
@@ -32,10 +33,12 @@ a {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100;
+  width: 0;
   height: 2px;
   background:#4f0792;
+  transition: .3s;
 }
 .right-nav a:hover::before {
   width: 100%;
+
 }
