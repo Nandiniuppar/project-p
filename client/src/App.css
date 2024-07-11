@@ -1,0 +1,41 @@
+.App-header {
+       background: rgb(203, 176, 228);
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       padding: 20px 10%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       z-index: 100;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-size: 30px;
+  color: #4f0792;
+  font-weight: 700;
+}
+.right-nav a {
+   position: relative;
+   font-size: 18px;
+   margin-left: 40px;
+   color: #4f0792;
+   justify-content: space-between;
+   font-weight: 400;
+   right: 55px;
+}
+.right-nav a::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100;
+  height: 2px;
+  background:#4f0792;
+}
+.right-nav a:hover::before {
+  width: 100%;
+}
